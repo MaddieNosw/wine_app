@@ -4,6 +4,9 @@ get '/' do
     erb :index
 end
 
+get '/bordeaux/red' do
+"This red bordeaux is voluptuous and soft with notes of pepper"
+end
 
 get '/:name/love/:signature' do
     @name = params[:name]
